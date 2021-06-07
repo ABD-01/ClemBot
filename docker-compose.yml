@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   snekbox:
-    image: pythondiscord/snekbox:latest
+    image: ghcr.io/python-discord/snekbox
     init: true
     ipc: none
     networks: 
